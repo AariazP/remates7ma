@@ -1,0 +1,27 @@
+button{
+    background: 
+        linear-gradient(#fff, #fff) padding-box,
+        linear-gradient(60deg, rgb(255, 242, 1), #000000) border-box;
+      color: #313149;
+      padding: 10px;
+      border: 1px solid transparent;
+      border-radius: 10px;
+      display: inline-block;
+      font-size: 12px;
+}
+
+#img{
+
+    min-height: 400px;
+    background-image: url('/assets/login/remate.png');
+    background-size: cover;
+    background-position: center;
+
+}
+
+@media screen and (max-width: 800px){
+    #img{
+        display: none;
+    }
+    
+}

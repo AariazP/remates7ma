@@ -1,0 +1,28 @@
+#modules div{
+    
+    margin-top: 15px;
+    margin-left: 10px;
+
+}
+
+img{
+    width: 40%;
+    height: 30%;
+    margin-right: 10px;
+}
+
+#sidebar{
+    height: 100vh;
+    background-color: brown;
+
+}
+
+.icon-item{
+    display: inline;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}

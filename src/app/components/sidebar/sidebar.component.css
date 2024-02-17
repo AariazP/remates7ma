@@ -1,28 +1,46 @@
-#modules div{
-    
-    margin-top: 15px;
-    margin-left: 10px;
-
-}
-
-img{
-    width: 40%;
-    height: 30%;
-    margin-right: 10px;
-}
-
-#sidebar{
+main{
     height: 100vh;
-    background-color: brown;
+    padding-top: 20px;
 
 }
+h2{
+    margin: 0;
+    padding: 0;
+    font-size: 1.5em;
+    font-weight: 100;
+    font-family: 'Nunito';
+}
 
-.icon-item{
-    display: inline;
+h2 img{
+    position: relative;
+    left: 22px;
+    top: -15px;
+}
+
+h6{
+    margin-top: 3px;
+    font-weight: 400;
+}
+
+li{
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 10px;
+    height: 23px;
+    justify-content: center;
     align-items: center;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 10px;
     cursor: pointer;
-    transition: 0.3s;
+    
 }
+
+li:hover{
+
+    background-color: #fffbb5;
+    
+}
+
+ul{
+    margin-top: 40px;
+}
+

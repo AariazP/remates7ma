@@ -48,5 +48,108 @@ background:
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 25%;
+    margin-left: 10%;
+    margin-right: 10%;
     
-  }
+}
+
+#bienvenido{
+    font-size: 15px;
+    font-weight: extra-light;
+    color: #313149;
+    margin-bottom: 10px;
+}
+
+#iniciar-sesion{
+    font-size: 40px;
+    font-weight: bold;
+    color: #313149;
+    margin-bottom: 40px;
+}
+
+label{
+    font-size: 15px;
+    color: #313149;
+    margin-bottom: 10px;
+
+}
+
+input{
+    padding: 10px;
+    border: 2px solid #d6d6d6;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    min-height: 50px;
+}
+
+input:focus{
+    border: 2px solid #313149;
+    outline: none;
+}
+
+.btn-grad {
+    background-image: linear-gradient(to right, #ded11a 0%, #3d3c03  51%, #fbeb07  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    border-color: transparent;
+    display: block;
+    margin-top: 15%;
+    min-width: 60%;
+}
+
+.btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+#titulo{
+    font-size: 20px;
+    font-weight: bold;
+    background: linear-gradient(to right, #ff0000, #00ff00);
+    background-clip: text;
+    margin-bottom: 10px;
+}
+
+#subtitulo{
+    
+    font-size: 15px;
+    font-weight: extra-light;
+    color: #313149;
+    margin-bottom: 10px;
+
+}
+ 
+
+@media screen and (max-width: 992px) {
+
+    #img {
+        margin-top: 30px;
+        height: 70vh;
+    }
+    .block-info{
+        display: flex;
+        justify-content: center;
+        align-items:safe center; 
+        flex-direction: column;
+        
+    }
+
+    .center-form {
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 4cqb;
+        
+    }
+    
+}

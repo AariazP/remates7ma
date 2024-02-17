@@ -8,8 +8,8 @@
 
         <div class="col-lg-6 block-info">
           <img src="../../assets/login/sombrero.png" alt="logo" class="img-fluid" id="logo">
-          <h5>Remates la 7ma</h5>
-          <h6>ERP system</h6>
+          <h5 id="titulo">Remates la 7ma</h5>
+          <h6 id="subtitulo">ERP system</h6>
         </div>
         <div class="col-lg-6">
           <button class="btn btn-primary mx-auto d-block" id="btn-crear-cuenta">Crear cuenta</button>
@@ -20,14 +20,15 @@
 
       <form class="center-form">
 
-        <p>¡Bienvenido de nuevo!</p>
-        <h3>Inicia sesión</h3>
+        <p id="bienvenido">¡Bienvenido de nuevo!</p>
+        <h3 id="iniciar-sesion">Inicia sesión</h3>
         <label for="email" class="label">Correo</label>
         <input type="email" class="form-control" formControlName="email" id="email"
           placeholder="Escribe tu correo aquí">
         <label for="password" class="label">Password</label>
         <input type="password" class="form-control" formControlName="password" id="password"
           placeholder="Escribe tu contraseña aquí">
+        <button class="btn-grad mx-auto d-block btn-login" id="btn-iniciar-sesion">Iniciar sesión</button>
 
       </form>
 

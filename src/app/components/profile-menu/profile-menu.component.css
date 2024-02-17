@@ -1,0 +1,16 @@
+img{
+    border-radius: 100px;
+}
+
+.dropdown{
+    background-color: transparent;
+}
+
+.dropdown button{
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}

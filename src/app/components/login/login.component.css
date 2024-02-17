@@ -1,27 +1,26 @@
-button{
-    background: 
-        linear-gradient(#fff, #fff) padding-box,
-        linear-gradient(60deg, rgb(255, 242, 1), #000000) border-box;
-      color: #313149;
-      padding: 10px;
-      border: 1px solid transparent;
-      border-radius: 10px;
-      display: inline-block;
-      font-size: 12px;
+.container {
+    background-color: blue;
 }
 
-#img{
-
-    min-height: 400px;
-    background-image: url('/assets/login/remate.png');
-    background-size: cover;
-    background-position: center;
-
-}
-
-@media screen and (max-width: 800px){
-    #img{
-        display: none;
-    }
+#form {
     
 }
+
+#img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.5s;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#container {
+    height: 100%;
+    margin-top: 3%;
+}
+  
+  .row {
+    height: 100%;
+  }

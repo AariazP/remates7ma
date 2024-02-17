@@ -1,6 +1,7 @@
-main{
+#main{
     height: 100vh;
     padding-top: 20px;
+    max-width: 300px;
 
 }
 h2{

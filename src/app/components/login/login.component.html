@@ -2,15 +2,36 @@
 
   <div class="row">
 
-    <div class="col-lg-6" id="form">
+    <div class="col-lg-6 col-left">
 
-      <form >
+      <div class="row">
 
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input type="email" class="form-control" formControlName="email" id="email" placeholder="Email">
+        <div class="col-lg-6 block-info">
+          <img src="../../assets/login/sombrero.png" alt="logo" class="img-fluid" id="logo">
+          <h5>Remates la 7ma</h5>
+          <h6>ERP system</h6>
         </div>
+        <div class="col-lg-6">
+          <button class="btn btn-primary mx-auto d-block" id="btn-crear-cuenta">Crear cuenta</button>
+        </div>
+
+      </div>
+
+
+      <form class="center-form">
+
+        <p>¡Bienvenido de nuevo!</p>
+        <h3>Inicia sesión</h3>
+        <label for="email" class="label">Correo</label>
+        <input type="email" class="form-control" formControlName="email" id="email"
+          placeholder="Escribe tu correo aquí">
+        <label for="password" class="label">Password</label>
+        <input type="password" class="form-control" formControlName="password" id="password"
+          placeholder="Escribe tu contraseña aquí">
+
       </form>
+
+
     </div>
 
     <div class="col-lg-6">
@@ -19,5 +40,5 @@
 
 
   </div>
-  
+
 </div>

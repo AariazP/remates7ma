@@ -1,13 +1,5 @@
-.container {
-    background-color: blue;
-}
-
-#form {
-    
-}
-
 #img {
-    height: 100%;
+    height: 100vh;
     width: 100%;
     object-fit: cover;
     object-position: center;
@@ -18,9 +10,43 @@
 
 #container {
     height: 100%;
-    margin-top: 3%;
+    
 }
   
-  .row {
-    height: 100%;
+#btn-crear-cuenta{
+background: 
+    linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(120deg, rgb(255, 242, 1), #000000) border-box;
+  color: #313149;
+  padding: 10px;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  display: inline-block;
+  font-size: 12px;
+
+}
+
+.block-info{
+    display: flex;
+    justify-content: center;
+    align-items:safe center; 
+    flex-direction: column;
+    
+}
+
+.col-left{
+    margin-top: 2%;
+}
+
+
+.label{
+    text-align: left;
+}
+
+.center-form {
+    height: 100%; /* Asegúrate de que el formulario ocupe toda la altura del contenedor */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
   }

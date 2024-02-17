@@ -44,7 +44,7 @@ background:
 }
 
 .center-form {
-    height: 100%; /* Asegúrate de que el formulario ocupe toda la altura del contenedor */
+
     display: flex;
     flex-direction: column;
     justify-content: center;

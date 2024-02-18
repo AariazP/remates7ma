@@ -16,3 +16,9 @@
     margin-top: 10px;
         
 }
+
+#module{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+}

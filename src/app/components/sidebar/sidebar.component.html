@@ -2,7 +2,8 @@
 
     <div class=" flex-column flex-shrink-0 p-3">
 
-        <h2> <img src="../../../assets/home/sombrero.png" width="40px" height="30px" />Remates la 7ma </h2>
+        <img src="../../../assets/home/sombrero.png" width="40px" height="30px"/>
+        <h2 class="d-none d-md-inline"> Remates la 7ma </h2>
         <h6 class="text-center">Erp System</h6>
         
         <ul class="nav nav-pills flex-column mb-auto">
@@ -10,25 +11,26 @@
                 <svg class="bi pe-none me-2" width="16" height="16">
                     <use xlink:href="#speedometer2" />
                 </svg>
-                Gestión de ventas
+                <!--Si el tamaño de la pantalla es small no se debe mostrar el titulo-->
+                <span class="d-none d-sm-inline">Gestión de ventas</span> 
             </li>
             <li>
                 <svg class="bi pe-none me-2" width="16" height="16">
                     <use xlink:href="#table" />
                 </svg>
-                Facturación
+                <span class="d-none d-sm-inline">Facturación</span>
             </li>
             <li>
                 <svg class="bi pe-none me-2" width="16" height="16">
                     <use xlink:href="#grid" />
                 </svg>
-                Gestion de Productos
+                <span class="d-none d-sm-inline">Gestión de productos</span> 
             </li>
             <li>
                 <svg class="bi pe-none me-2" width="16" height="16">
                     <use xlink:href="#people-circle" />
                 </svg>
-                Gestión de proveedores y clientes
+                <span class="d-none d-sm-inline">Gestión de proveedores y clientes</span>
             </li>
 
         </ul>

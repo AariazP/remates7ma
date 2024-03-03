@@ -1,0 +1,25 @@
+<div class="container-fluid">
+
+    <div id = "products" class="row">
+
+        <div id="sidebar" class="col-2">
+            <app-sidebar/>
+        </div>
+        
+        <div class="col-10">
+            <app-title-module id="title" [title]="'Productos'" [image]="'../../assets/products/carrito.png'" [description]="'En esta sección puedes ver los productos que tienes en tu inventario y agregar nuevos'"/>
+            <div class="row">
+
+                <div class="col">
+                    <app-bills-metric [image]="'../../assets/products/products.png'" />
+                </div>
+
+                <div class="col">
+                    <app-bills-metric [image]="'../../assets/products/products.png'" />
+                </div>
+            <app-options-crud/>
+            <app-product/>
+        </div>
+    </div>
+</div>
+            

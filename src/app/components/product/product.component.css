@@ -1,0 +1,12 @@
+#products{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.centered {
+    text-align: center !important;
+    vertical-align: middle !important;
+}

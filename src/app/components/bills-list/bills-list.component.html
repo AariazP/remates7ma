@@ -1,0 +1,41 @@
+<div class="" id="component">
+
+
+    <div class="row">
+        <div class="col-sm-12 col-md-12  col-lg-12 col-xl-12">
+            <!--Tabla con estilos de bootstrap-->
+            <table id="datatable_products" class="table">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Titulo</th>
+                        <th>Descripción</th>
+                        <th>Precio</th>
+                        <th>Fecha facturación</th>
+                        <th>Estado</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @for(item of bills; track item.id){
+
+                    <tr>
+                        <td>{{item.id}}</td>
+                        <td>{{item.titulo}}</td>
+                        <td>{{item.descripcion}}</td>
+                        <td>{{item.precio}}</td>
+                        <td>{{item.fecha}}</td>
+                        <td>{{item.estado}}</td>
+                        <td>
+                            <button type="button" id="btn-editar" class="btn btn-primary">Editar</button>
+                            <button type="button" id="btn-eliminar" class="btn btn-danger">Eliminar</button>
+                        </td>
+                    </tr>
+
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</div>
